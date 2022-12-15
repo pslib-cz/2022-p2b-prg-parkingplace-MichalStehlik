@@ -6,6 +6,8 @@ namespace ParkingPlace.Models
 {
     public interface IParkable
     {
-        // TODO
+        string Id { get; }
+        int Size { get; }
+        float CalculatePrice(int HoursSpent);
     }
 }

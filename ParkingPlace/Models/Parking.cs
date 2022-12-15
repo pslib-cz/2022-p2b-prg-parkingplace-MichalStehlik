@@ -18,7 +18,7 @@ namespace ParkingPlace.Models
             Total = total;
             Occupied = 0;
         }
-        /*
+
         /// <summary>
         /// Přidá na parkoviště novou věc splňující rozhraní IParkable
         /// </summary>
@@ -80,6 +80,5 @@ namespace ParkingPlace.Models
                 //throw new NotContentException("This thing was not parked here.");
             }
         }
-        */
     }
 }

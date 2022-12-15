@@ -5,10 +5,13 @@ using System.Drawing;
 
 Console.WriteLine("Naše parkoviště");
 Parking parking = new Parking(7);
-/*
+//Vehicle x = new Vehicle("X", Color.Azure);
+//Console.WriteLine(x);
+
 Car skodovka = new Car("LBT 12 12", Color.Azure, 4);
 Car bavorak = new Car("LBT 13 13", Color.Purple, 4);
 Car peugeot = new Car("LBT 11 11", Color.Green, 4);
+
 Bus scania = new Bus("LBT 14 14", Color.Orange, 45);
 Tank leopard = new Tank("25", Color.Green);
 Horse semik = new Horse("Šemík");
@@ -49,4 +52,3 @@ foreach (var l in leaving)
 }
 Console.WriteLine("--- Result ---");
 Console.WriteLine("We earned " + parking.Revenue + " total");
-*/
